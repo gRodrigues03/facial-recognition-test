@@ -10,8 +10,8 @@ known_names = list(stored.keys())
 known_encodings = [np.array(stored[name]) for name in known_names]
 
 # pick an image to test
-# unknown_image_path = r"faces\blue-pen.png"
-unknown_image_path = r"faces\opama.jpg"
+# unknown_image_path = r"faces\opama.png"
+unknown_image_path = r"uploaded_images\2025-09-30 12-43-51.316562"
 unknown_image = face_recognition.load_image_file(unknown_image_path)
 unknown_encodings = face_recognition.face_encodings(unknown_image)
 
