@@ -11,7 +11,7 @@ known_encodings = [np.array(stored[name]) for name in known_names]
 
 # pick an image to test
 # unknown_image_path = r"faces\opama.png"
-unknown_image_path = r"uploaded_images\2025-09-30 12-43-51.316562"
+unknown_image_path = r"C:\Users\estatistica.02\PycharmProjects\facial-recognition-test\uploaded_images\2025-09-30 12-51-01.039412.jpg"
 unknown_image = face_recognition.load_image_file(unknown_image_path)
 unknown_encodings = face_recognition.face_encodings(unknown_image)
 

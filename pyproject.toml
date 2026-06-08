@@ -1,0 +1,21 @@
+[project]
+name = "facial-recognition-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "face-recognition",
+    "face-recognition-models",
+    "fastapi>=0.136.3",
+    "numpy>=2.4.6",
+    "opencv-python>=4.13.0.92",
+    "python-multipart>=0.0.32",
+    "requests>=2.34.2",
+    "setuptools==81.0.0",
+    "uvicorn>=0.49.0",
+]
+
+[tool.uv.sources]
+face-recognition = { git = "https://github.com/thetoby9944/face_recognition" }
+face-recognition-models = { git = "https://github.com/ageitgey/face_recognition_models" }
